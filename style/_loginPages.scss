@@ -1,0 +1,125 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  .loginPages {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 100%;
+    .loginPages_tittle {
+        position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 720px;
+      &__p {
+        color: var(--800, #2d3748);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      &__h1 {
+        color: var(--900, #1a202c);
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+    }
+  }
+}
+
+.loginPages_tittle {
+  &__btn-green {
+    width: 347px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background: #04c35c;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 27px;
+  }
+  &__btn-google {
+    width: 347px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: var(--800, #2d3748);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+    margin-top: 15px;
+    border: none;
+    .btn_tittle {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 200px;
+      color: #fff;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+  }
+  .loginForm {
+    &__p {
+      color: var(--700, #4a5568);
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-top: 24px;
+    }
+    &__password {
+      width: 350px;
+      height: 50px;
+      outline: none;
+    }
+  }
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 28px;
+}
+
+#aTeg {
+  color: var(--800, #2c5282);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.end {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 45px;
+    margin-top: 180px;
+    position: absolute;
+  #aTeg1 {
+    color: var(--700, #2b6cb0);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .end_p {
+    color: #616161;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
